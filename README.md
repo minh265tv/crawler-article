@@ -25,7 +25,7 @@ $ npm run start:prod
 - Api lấy 10 tin mới nhất theo 1 chủ đề: [GET] /article?topic=${topic} (topic format theo slug)
 - Api crawl từ các trang báo : [POST] /crawler (Thư mục module api: /src/cralwer)
 
-# Websocket
+## Websocket
 
 - Event name lấy 10 tin mới nhất theo 1 chủ đề : ('get-article', {topic: ${topic}})
 
